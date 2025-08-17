@@ -8,7 +8,7 @@ const reviewSchema = new Schema({
     min: 1,
     max: 5,
   },
-  sentiment: String, // ✅ Add this line
+  sentiment: String,
   createdAt: {
     type: Date,
     default: Date.now(),

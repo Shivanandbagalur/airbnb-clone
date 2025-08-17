@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "22.17.0"
+  },
   "name": "majorprojects",
   "version": "1.0.0",
   "description": "",
@@ -10,8 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chart.js": "^4.4.9",
     "cloudinary": "^2.5.1",
     "connect-flash": "^0.1.1",
+    "connect-mongo": "^5.1.0",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "ejs-mate": "^4.0.0",
@@ -24,6 +29,7 @@
     "multer-storage-cloudinary": "^4.0.0",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^8.0.0"
+    "passport-local-mongoose": "^8.0.0",
+    "sentiment": "^5.0.2"
   }
 }
